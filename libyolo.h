@@ -6,10 +6,10 @@ typedef void* yolo_handle;
 
 typedef struct {
 	char name[32];
-	int left;
-	int right;
-	int top;
-	int bottom;
+	float left;
+	float right;
+	float top;
+	float bottom;
 	float prob;
 } detection_info;
 
